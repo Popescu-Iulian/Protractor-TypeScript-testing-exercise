@@ -1,0 +1,30 @@
+{
+  "name": "protractor-typescript-testing-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor outputjs/conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Popescu-Iulian/Protractor-TypeScript-testing-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Popescu-Iulian/Protractor-TypeScript-testing-exercise/issues"
+  },
+  "homepage": "https://github.com/Popescu-Iulian/Protractor-TypeScript-testing-exercise#readme",
+  "dependencies": {
+    "@types/jasmine": "^3.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "~14.0.13",
+    "jasmine": "3.5.0",
+    "protractor": "~7.0.0",
+    "typescript": "~3.9.3"
+  }
+}
